@@ -1,0 +1,23 @@
+.addTodoBtn{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-image: linear-gradient(to bottom, #f0f1f6, #a1aeb0);
+    position: relative;
+    border-radius: 5px;
+}
+
+.addTodoBtn span{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 999px;
+    width: 20px;
+    height: 20px;
+}

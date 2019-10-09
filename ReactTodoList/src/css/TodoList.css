@@ -1,0 +1,9 @@
+.todo-list-container{
+    width: 300px;
+    margin: 30px;
+    border: 1px solid black;
+}
+.list{
+    overflow-y: scroll;
+    height: 300px;
+}

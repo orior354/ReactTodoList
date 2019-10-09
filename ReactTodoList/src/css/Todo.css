@@ -1,0 +1,26 @@
+*{
+  font-family: arial;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+}
+.todo:nth-child(odd) {
+  background-color: #f3f6e3;
+}
+.castumCheckBox{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  background-color: white
+}
+.castumCheckBox.checked{
+  background-color: #737373;
+}
+.todoName[data-checked="true"]{
+  color:  #737373;
+  text-decoration: line-through;
+}
